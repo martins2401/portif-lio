@@ -109,6 +109,24 @@ header button {
 
 
 }
+.sobre{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sobre article {
+    margin: 0;
+    margin-left: 30px;
+    font-size: 1.3em;
+    color: black (0, 0, 0);
+    padding: 0;
+}
+
+
 
 .social {
     width: 35%;
@@ -142,3 +160,61 @@ header button {
     border-radius: 15px;
     box-shadow: 0 0 0.7em #DAA520;  
 }
+.contato{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.botoess{
+    margin: 0;
+    padding: 0;
+    width: 35%;
+    height: 100%;
+    display: flex;
+    align-items: center; 
+    justify-content:center;
+    flex-direction: column;
+    gap: 25px;
+    background-color:#bababa(158, 215, 241);
+
+}
+.botoess button{
+    padding: 15px;
+    background-color: darkgoldenrod;
+    border: 0;
+    color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 0.7em gold;
+}
+.contato button:hover{
+    background-color: gold;
+    transition-duration: 0.5s;
+    }
+    
+
+.contato form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.contato input{
+    width: 55%;
+    border: 1px #DAA520 solid;
+    background-color: transparent;
+    color: black;
+    height: 30px;
+    padding: 5px;
+    font-size: 1.2 cm;
+    border-radius: 5px;
+    text-align: center;
+    transition-duration: 0.5s;
+    
+}
+::placeholder{
+    color:#DAA520
+}
+
+
